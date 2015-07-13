@@ -1,0 +1,67 @@
+body {
+	text-align: center;
+	background: url("http://s3.amazonaws.com/rapgenius/1363293346_Brown-Throated%20Three-Toed%20Sloth,%20Panama.jpg");
+	background-position: center;
+}
+h1 {
+	text-align: center;
+	font-size: 60px;
+	color: black;
+	position: relative;
+	top: -37px;
+	font-family: Lucida Bright;
+}
+.one {
+	position: relative;
+	top:-33px;
+	text-align: center;
+	color: red;
+}
+.names {
+	text-align: left;
+	color: yellow;
+}
+h2 {
+	text-align: center;
+	color: red;
+}
+.about {
+	text-align: left;
+	color: gold;
+}
+.hobbies {
+	text-align: left;
+	color: gold;
+}
+.conclusion {
+	text-align: center;
+	color: gold;
+}
+h3 {
+	color: red;
+}
+p {
+	text-align: left;
+	color: white;
+}
+.me {
+	color: white;
+}
+.jewish {
+	text-align: center;
+	color: red;
+}
+img {
+	border-radius: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
