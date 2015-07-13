@@ -1,0 +1,28 @@
+body {
+	//max-width: 650px;
+	background: url("../images/back.jpg");
+	background-size: cover;
+}
+h1 {
+   text-align: center;
+
+}
+p {
+    color: red;
+
+}
+
+h2 {
+    text-align: center;
+
+}
+div {
+     margin: 0 auto;
+     width: 550px;
+}
+.jobs {
+     background: rgba(255,255,255,.5);
+}
+.right {
+     background: rgba(255,255,255,.5);
+}
