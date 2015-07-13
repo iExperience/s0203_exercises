@@ -1,0 +1,28 @@
+html {
+	height: 100%;
+	min-height:100%;
+}
+
+body {
+	max-width: 600px;
+	margin: 0 auto;
+	background: url("https://fbcdn-sphotos-a-a.akamaihd.net/hphotos-ak-xfp1/v/t1.0-9/11081150_10155342407085403_652748224713217019_n.jpg?oh=54e545ac9480c0ffcbfaedf8fea998a8&oe=561D1EDE&__gda__=1444612494_bcaa5f2a9080d8f2b3e08bf83d52909e");
+	background-size: cover;
+	font-family: 'Dosis';
+	color: white;
+}
+
+
+
+img {
+	max-width: 500px;
+	margin-top: 20px;
+}
+
+h1 {
+	margin-bottom: -10px;
+}
+
+h3 {
+	margin-bottom: 5px;
+}
