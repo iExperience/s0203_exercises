@@ -1,0 +1,22 @@
+body {
+	color: white;
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+	background: url(http://www.jobmail.co.za/blog/wp-content/uploads/2015/05/Retail-Jobs-Cape-Town.jpeg);
+	background-size: cover;
+
+	}
+
+
+
+img {
+	width: 30%;
+	height: 200px;
+}
+
+.logo {
+	height:300px;
+	border-radius: 60%;
+}
+
+
