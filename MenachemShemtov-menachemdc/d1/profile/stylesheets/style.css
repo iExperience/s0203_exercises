@@ -1,0 +1,27 @@
+body {
+	padding-top: 25px;
+	color: black;	
+	font-family: 'PT Sans Narrow', sans-serif;
+	background: url("../images/surfer.jpg");
+	background-size: cover;
+	text-align: center;
+	font-size: 
+
+}
+h1 {
+	font-size: 50px;
+	color: white;
+
+}
+.awesome {
+	font-size: 60px;
+
+}
+.right {
+	margin-top: 300px;
+	color: white;
+}
+.checking {
+	margin-top: 10px;
+	font-size: 15px;
+}
