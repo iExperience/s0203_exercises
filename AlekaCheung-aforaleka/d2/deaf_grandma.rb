@@ -12,10 +12,3 @@ while words.strip != "BYE"
 	end
 end
 
-if words.strip == "BYE"
-	words = gets
-	if words.strip == "BYE"
-		words = gets
-		puts "I'm so disappointed T_T.. bye.."
-	end
-end
