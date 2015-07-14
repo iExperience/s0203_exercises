@@ -1,0 +1,69 @@
+img {
+	margin: 40px 200px;
+}
+
+body {
+	font-family: 'Roboto Condensed', sans-serif;
+  color: black;
+  text-align: center;
+  background: #00CED1;
+}
+
+header {
+  text-align: center;
+  background: url("http://zenithafrica.com/wp-content/uploads/2014/12/Table-Mountain.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: none;
+  color: white;
+}
+
+h1 {
+	text-align: center;
+	font-size: 48px;
+	margin: 0 auto;
+}
+
+.spiel {
+	text-align: center;
+	margin: 0 auto;
+}
+
+img {
+      border: 7px solid white;
+      border-radius: 1000px; 
+      float: center;
+      margin: 0 10px;
+      width: 200px;
+    }
+
+.jobs {
+	text-align: center;
+}
+
+h2 {
+  margin: 0 0 -10px 0;
+  padding: 50px;
+}
+
+.jobs {
+  column-width: 400px;
+  -moz-column-width: 400px;
+  -webkit-column-width: 400px;
+}
+
+.job {
+  display: inline-block;
+  width: 100%;
+}
+
+.education {
+  column-width: 400px;
+  -moz-column-width: 400px;
+  -webkit-column-width: 400px;
+}
+
+.school {
+  display: inline-block;
+  width: 100%;
+}
