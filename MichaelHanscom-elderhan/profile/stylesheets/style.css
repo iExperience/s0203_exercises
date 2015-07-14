@@ -1,7 +1,6 @@
 <style>
 	body{
 		margin: 0 auto;
-		text-align: center;
 	}
 	h1 {
 		font-size: 60px;
@@ -31,19 +30,17 @@
     	color: white;
     }
     div{
-  		position: justify;
+  		position: relative;
   		width: 400px;
   		display: inline;
+        margin: 0 auto;
 
     }
     .academics{
-    	float: center;
+    	float: left;
   
     }
-    .pursuits{
-    	float: center;
-    }
     .others{
-    	float: center;
+    	float: right;
     }
 </style>
