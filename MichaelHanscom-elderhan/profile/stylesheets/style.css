@@ -1,0 +1,49 @@
+<style>
+	body{
+		margin: 0 auto;
+		text-align: center;
+	}
+	h1 {
+		font-size: 60px;
+		padding: 0 0 100px 0;
+		color: white;
+	}
+	header{
+		text-align: center;
+		background: url("http://i.imgur.com/kCHYHiv.jpg");
+		background-size: cover;
+		background-position: center;
+	}
+    img {
+    	width: 200px;
+    	position: center;
+    }
+
+    li {
+    	color: white;
+    	background: black;
+    	display:inline;
+    	padding: 5px;
+    	border: 6px solid black;
+    	border-radius: 10px;
+    }
+    a {
+    	color: white;
+    }
+    div{
+  		position: justify;
+  		width: 400px;
+  		display: inline;
+
+    }
+    .academics{
+    	float: center;
+  
+    }
+    .pursuits{
+    	float: center;
+    }
+    .others{
+    	float: center;
+    }
+</style>
