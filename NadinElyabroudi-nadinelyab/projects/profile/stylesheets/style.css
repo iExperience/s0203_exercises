@@ -1,5 +1,5 @@
 body {
-  background-color: #e65b00;
+  background-color: white;
   text-align: center;
   color: black;
   font-family: Arial, Helvetica, sans-serif;
@@ -41,7 +41,7 @@ h2 {
   width: 50%;
   border-radius: 180px;
   border: 7px solid #D0DADC;
-  background-color: white;
+  background-color: #e65b00;
   margin: 0 auto;
   margin-bottom: 50px;
   padding: 20px;
