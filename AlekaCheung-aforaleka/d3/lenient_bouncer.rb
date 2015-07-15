@@ -1,9 +1,8 @@
-#this dude lets everyone in the club
 def lenient_bouncer
 	true
 end
 
-#this dude does his job
+
 def bouncer(age, country)
 	country = country.downcase
 	if country == "south africa"
@@ -19,6 +18,7 @@ def bouncer(age, country)
 		else
 			puts "You in."
 		end
+	
 	else
 		puts "sorry man, don't know where you're from."
 	end
@@ -36,6 +36,8 @@ def strict_bouncer(people_array, letter)
 	end
 	allowed_list
 end
+
+
 
 # bouncer:
 # puts bouncer(18, 'South Africa')
