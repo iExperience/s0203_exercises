@@ -31,13 +31,15 @@ def strict_bouncer(people_array, letter)
 
 	people_array.each do |name, age|
 		if (name[0] != letter) && (age >= 21)
-			allowed_list << name
+			allowed_list.push(name)
 		end
 	end
 	allowed_list
 end
 
 
+# lenient bouncer:
+# puts lenient_bouncer
 
 # bouncer:
 # puts bouncer(18, 'South Africa')
