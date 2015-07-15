@@ -9,6 +9,11 @@ def index_of(string, letter)
 	return -1
 end
 
+index_of("abcdefghijklmnop", "m")
+# => 12
+index_of("abcdefghijklmnop", "z")
+# => -1
+
 
 def find_by_name(array_of_hashes, string)
 	array_of_hashes.each do |hash|
@@ -16,6 +21,7 @@ def find_by_name(array_of_hashes, string)
 			return hash
 		end
 	end
+	return nil
 end
 
 def filter_by_name(array_of_hashes, string)
@@ -27,33 +33,3 @@ def filter_by_name(array_of_hashes, string)
 	end
 	return_array
 end
-
-people = [
-  {
-    :id => 1,
-    :name => "bru"
-  },
-  {
-    :id => 2,
-    :name => "ski"
-  },
-  {
-    :id => 3,
-    :name => "brunette"
-  },
-  {
-    :id => 4,
-    :name => "ski"
-  }
-]
-
-find_by_name(people, "ski")
-
-find_by_name(people, "kitten!")
-# => nil
-filter_by_name(people, "ski")
-# => [{:id=>2,:name=>"ski"}, {:id=>4,:name=>"ski"}]
-filter_by_name(people, "bru")
-# => [{:id=>1,:name=>"bru"}] (Note this is still an array)
-filter_by_name(people, "puppy!!!")
-# => []
