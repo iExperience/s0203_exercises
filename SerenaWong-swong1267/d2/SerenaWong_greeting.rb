@@ -6,3 +6,6 @@ puts "Please enter your last name: "
 last_name = gets.strip
 
 puts "Hello, #{first_name + " " + middle_name + " " + last_name}!"
+
+#better
+puts "Hello, #{first_name} #{middle_name} #{last_name}!"
