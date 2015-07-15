@@ -2,6 +2,7 @@ def lenient_bouncer
 	true
 end
 
+
 def bouncer(age, country)
 	if country.strip.downcase == "south africa" && age >= 18
 		return "You in."
@@ -10,6 +11,7 @@ def bouncer(age, country)
 	end
 	"You out."
 end
+
 
 def strict_bouncer(people, letter)
 	allowed_in = []

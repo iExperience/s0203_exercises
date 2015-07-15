@@ -5,5 +5,6 @@ end
 
 def mumble input
 	input = input.downcase
+	input
 end
 
