@@ -1,0 +1,23 @@
+# map.rb
+
+result = []
+engines = ["Google", "Bing", "Ask Jeeves"]
+engines.each do |e|
+  if e == "Google"
+    result.push("OK")
+  elsif e == "Bing"
+    result.push("Bad!")
+  else
+    result.push("What is that?")
+  end
+end
+
+
+result
+# => ["OK", "Bad!", "What is that?"]
+What is the return value of map? What is the return value of each?'
+
+
+Map returns an array of strings ["OK", "Bad!", "What is that?"]
+
+The return value of each is the same exact array because the last thing done is a push call which returns the array
