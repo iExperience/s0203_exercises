@@ -1,14 +1,23 @@
 puts "say something to grandma: "
-words = gets
-number = 3
+count = 0
 
-while words.strip != "BYE"
-	if words == words.upcase
+while count < 3 
+	words = gets
+
+	if words.strip == "BYE"
+		count += 1
+	elsif words == words.upcase
 		puts "NO, NOT SINCE #{rand(0...20) + 1930}"
-		words = gets
+		count = 0
 	else
 		puts "HUH?! SPEAK UP, SONNY!"
-		words = gets
+		count = 0
+	end
+
+	if count == 3
+		puts "bye"
 	end
 end
+
+
 
