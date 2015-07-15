@@ -3,11 +3,9 @@ body {
   font-family: 'Open Sans', sans-serif;
  }
  .top {
-  height: 100px;
-  padding-bottom: -20px;
-  padding-top: 20px;
-  font-size: 48px;
-  color: 808080;
+  color: gray;
+  text-align: justify;
+  margin: 0 auto;
  }
  .middle {
   background-image: url("../images/nightmountain.jpg");
@@ -27,4 +25,8 @@ body {
  }
  p {
   color: 808080;
+ }
+
+ ul li {
+  display: inline;
  }

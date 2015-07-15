@@ -7,8 +7,6 @@ puts "What is the ending year?"
 
 ending = gets.strip.to_i
 
-counter = 0
-
 while start < ending
 	while (start%4 == 0) && (start%100 != 0) || start%400 == 0
 		puts start
