@@ -22,5 +22,3 @@ def strict_bouncer(people, letter)
 	end
 	allowed_in
 end
-
-puts strict_bouncer([['erica', 22], ['ian', 24], ['brian', 34], ['seth', 18]], 'i').inspect
