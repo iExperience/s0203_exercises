@@ -1,0 +1,20 @@
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+	<h3>This is my awesome phonebook</h3>
+	<h4>> I only have 3 friends.</h4>
+
+	<a href="/contacts">See all their numbers</a>
+	<br>
+
+	<h4>> or you can do this</h4>
+
+	<% @contacts.each do |name, number| %>
+		<a href="/contacts/<%= name %>"><%= name %></a>
+		<br>
+	<% end %>
+
+</body>

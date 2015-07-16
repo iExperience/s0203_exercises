@@ -31,7 +31,7 @@ def strict_bouncer(people_array, letter)
 
 	people_array.each do |name, age|
 		if (name[0] != letter) && (age >= 21)
-			allowed_list.push(name)
+			allowed_list << name
 		end
 	end
 	allowed_list
@@ -49,7 +49,7 @@ end
 # puts bouncer(4, 'sfd')
 
 # strict bouncer:
-# puts strict_bouncer([['erica', 22], ['ian', 24], ['brian', 34], ['seth', 18]], 'i')
+# strict_bouncer([['erica', 22], ['ian', 24], ['brian', 34], ['seth', 18]], 'i')
 # puts strict_bouncer([['aaron', 28], ['rafi', 21]], 'i')
 
 

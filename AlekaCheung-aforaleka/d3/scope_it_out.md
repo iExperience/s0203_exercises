@@ -1,6 +1,6 @@
 ## E2: Scope It Out
 
-1. 20
+1. "ITS SO LOUD", 20
 
 2. Step by step:
  * assign local variable 'loudness' a value of 20
