@@ -1,0 +1,15 @@
+<h1> Welcome to the super amazing phone book </h1>
+<h2> Click on one of the links below to get started </h2>
+
+<h3> This link will show you all of the contacts </h3>
+<a href="/contacts">Click To Browse Through All Contacts</a>
+
+<br><br>
+
+<h3> Please click one of the links below in order to see their contact information </h3>
+<ul>
+<% @contacts.each do |contact| %>
+	<% ref = "/contacts/" + contact %>
+	<li> <a href=<%=ref%>><%= contact %></a> </li>
+<% end %>	
+</ul>

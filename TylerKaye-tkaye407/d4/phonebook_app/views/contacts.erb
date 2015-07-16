@@ -1,0 +1,13 @@
+<h1> <b><u> All Contacts: </u></b></h1> 
+     <p>________________________________</p> <br>
+
+<a href="/..">------------HOME------------</a><br><br>
+
+
+<% @contact_array.each do |contact| %>
+	<% contact.split("(new)").each do |line| %>
+		<%= line %>
+		<br>
+	<% end %>
+	<br><br>
+<% end %>	
