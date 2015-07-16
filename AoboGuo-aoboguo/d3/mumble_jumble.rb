@@ -6,3 +6,9 @@ def jumble(sentence)
 end
 
 puts jumble("HI THERE I AM STILL HUNGRY")
+
+def mumble(sentence)
+	sentence.downcase
+end
+
+puts mumble("HI THERE I AM STILL HUNGRY")
