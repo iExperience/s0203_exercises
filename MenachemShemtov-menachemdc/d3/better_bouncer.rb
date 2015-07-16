@@ -9,7 +9,7 @@ def bouncer(age, country)
 		puts "you out"
 	elsif age >= 21 && country.upcase = "USA"
 		puts "you in"
-	elsif age <21 && country.upcase = "USA"
+	elsif age < 21 && country.upcase = "USA"
 		puts "you out"
 	end
 end
