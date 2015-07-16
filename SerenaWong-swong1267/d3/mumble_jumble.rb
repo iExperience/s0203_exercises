@@ -8,3 +8,9 @@ def mumble input
 	input
 end
 
+#better, can do for jumble also
+def mumble input
+	input.downcase
+end
+
+#include checks for empty string to increase efficiency
