@@ -1,5 +1,11 @@
 require "sinatra"
 
+get "/" do
+	@contacts_array = ["Erica", "Justin", "Kelly"]
+	erb :home_page
+end
+
+
 get "/contacts" do
 	@contacts_array = ["Erica", "Justin", "Kelly"]
 	erb :contacts

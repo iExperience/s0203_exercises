@@ -3,4 +3,7 @@
 <h1> Phonebook </h1>
 <p> See all your friends: <a href="/contacts"> Index View </a> </p>
 <h2> See a Specific Friend </h2>
-<p> 
+<% @contacts_array.each do |name| %>
+	<p> <a href="/contacts/<%=name%>"> <%=name%> </a> </p>
+<%end%> 
+
