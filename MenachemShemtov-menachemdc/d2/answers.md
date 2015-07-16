@@ -6,5 +6,5 @@
 6 Error msg :(
 7 Batwoman
 8 Miley
-9 Rapper[0]
-10 Rapper [0,3] / Rapper [0..2]
+9 Rapper[0] / 'Jaydakiss' [0]
+10 Rapper [0,3] / Rapper [0..2] / 'Jaydakiss' [0..2] / [0,3]

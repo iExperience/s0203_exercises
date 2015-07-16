@@ -4,4 +4,4 @@ puts "What is your middle name?"
 middle = gets.chomp
 puts "What is your last name?"
 last = gets.chomp
-puts "Hello, #{first} #{middle} #{last}. Whats up Bru?"
+puts "Hey, #{first} #{middle} #{last}. Whats up Bru?"
