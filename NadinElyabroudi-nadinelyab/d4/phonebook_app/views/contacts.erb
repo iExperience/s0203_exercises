@@ -1,5 +1,5 @@
 <h1>All Contacts</h1>
 <% @contacts.each do |person| %>
-	<%= person %>
+	<a href="/contacts/<%= person %>"><%= person %></a>
 	<br>
 <% end %>
