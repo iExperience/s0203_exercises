@@ -1,0 +1,6 @@
+
+<% @contacts.each_with_index do |contact, index| %>
+	<a href='/contacts/<%=@contacts[index]%>'><%=@contacts[index] %></a>
+	<br>
+
+<%end%>

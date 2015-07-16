@@ -1,0 +1,12 @@
+<% if @operation == "add" %>
+	<h1> The sum of <%= @num1 %> and <%= @num2 %> is <%= (@num1 + @num2) %> </h1>
+<% elsif @operation == "subtract" %>
+ 	<h1> The result of <%= @num1 %> minus <%= @num2 %> is <%= (@num1 - @num2) %> </h1>
+
+ <%elsif @operation == "multiply" %>
+ 	<h1> The product of <%= @num1 %> times <%= @num2 %> is <%= (@num1 * @num2) %> </h1>
+ <%elsif @operation == "divide" %>
+ 	<h1> The result of <%= @num1 %> divided by <%= @num2 %> is <%= (@num1.to_f / @num2.to_f) %> </h1>
+ <%else%>
+ 	<h1> <%= @num1 %> to the power of <%= @num2 %> is <%= (@num1**@num2) %> </h1>
+ <%end%>
