@@ -12,13 +12,13 @@ def bouncer (age, country)
 	end
 end
 
-def strict_bouncer (array, letter)
+def strict_bouncer (people, letter)
 	allowed = []
 	
-	array.each_with_index do |person, index|
-		if array[index].last >= 21
-			if array[index].first[0] != letter
-				allowed << array[index].first
+	people.each_with_index do |person, index|
+		if people[index].last >= 21
+			if people[index].first[0] != letter
+				allowed << people[index].first
 			end
 		end
 	end

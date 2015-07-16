@@ -1,4 +1,4 @@
-1. IT'S SO LOUD
+1. IT'S SO LOUD (return value is 20)
 2. ..It creates a variable called "loudness" and sets it equal to 20
 ..It puts the string "IT'S SO LOUD"
 ..Then it returns the value in loudness
