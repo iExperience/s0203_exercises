@@ -1,0 +1,75 @@
+body {
+	max-width: 1000px;
+	background: url("/../back.jpg");
+	background-size: cover;
+    margin: 0 auto;
+    text-align: center;
+    font-family:'Chelsea Market', cursive;
+}
+h1 {
+   text-align: center;
+}
+h2 {
+    line-height: 18px;
+    text-align: center;
+}
+p {
+    color: red;
+    width: 80%;
+    text-align: center;
+    position: relative;
+    right: -10%;
+    font-size: 16px;
+    line-height: 18px;
+}
+div {
+     border-radius: 100px;
+     //position: relative;
+     display: block;
+     text-align: center;
+     margin: 0 auto;
+}
+.top {
+    width: 990px;
+    display: table-row;
+}
+.sect {
+     width: 33%;
+     display: table-cell;
+     background: rgba(255,255,255,.5);
+     border-style: double;
+     border-width: 10px;
+}
+.title {
+     border-style: dotted;
+}
+.bottom {
+     width: 70%;
+     height: 120px;
+     background: rgba(255,255,255,.5);
+     border-style: double;
+     border-width: 10px;
+     margin: 0 auto;
+}
+.links {
+    width: 60%;
+     height: 45px;
+     background: rgba(255,255,255,.5);
+     border-style: dotted;
+     border-width: 3px;
+     margin: 0 auto;
+}
+li {
+     display: inline;
+     text-align: center;
+     color: red;
+     font-size: 18px;
+     margin: 10px;
+}
+small {
+     color: black;
+     font-size: 16px;
+}
+img {
+    margin: 0 20px;
+}
