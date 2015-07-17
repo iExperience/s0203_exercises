@@ -1,0 +1,75 @@
+body {
+	font-family: centurygothic;
+	text-align: center;
+		background: url("/images/octopus.jpg");
+		background-size: cover;
+		height: 100vh;
+	background-color: #e7b9b9;
+    color: white;
+ }
+/*
+.home-page {
+	background: url("/images/sleep2.jpg");
+    background-size: cover;
+    height: 100vh;
+}*/
+
+/*.home-page body {
+font-family: centurygothic;
+	text-align: center;
+		background: url("/images/sleep2.jpg");
+		background-size: cover;
+	background-color: #e7b9b9;
+    color: white;
+}*/
+
+/*.home-page h1 {color: rgba(255,255,255,0.7);
+	font-family: 'Rock Salt', cursive;
+	text-align: center;
+  	font-size: 100px;}
+
+.about-page {
+	background-image: url("/images/octopus.jpg");
+    background-size: cover;
+
+}*/
+
+h1 {
+	color: rgba(255,255,255,0.7);
+	font-family: 'Rock Salt', cursive;
+	text-align: center;
+  	font-size: 100px;
+ }
+
+h2 {
+	color: #222a3f;
+	font-family: 'Slabo 27px', serif;
+	font-size: 18px;
+	padding: 0 100px 0 100px;
+}
+
+h3 {
+	font-family: 'Rock Salt', cursive;
+	font-size: 30px;
+	color: #222a3f;
+	padding: 20px 0 0 0;
+}
+
+ul {
+     position: fixed;
+     min-width: 100%;
+   	 background: rgba(255,255,255,0.3);
+     padding: 10px;
+   	 margin: -22px 0 0 -10px;
+
+ }
+li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
+
+ a {
+ 	color: white;
+ 	 text-decoration: none;
+
+ }

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Phonebook</title>
+</head>
+<body>
+
+<% @contacts.each do |info| %>
+
+		Name: <%= info[:person_name] %>
+		<br>
+		Number: <%= info[:number] %>
+		<br>
+
+<% end %>
+
+</body>
+</html>

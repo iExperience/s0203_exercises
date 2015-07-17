@@ -21,7 +21,7 @@ def strict_bouncer(array, letter)
 not_bounced = []
 	array.each do |person|
 		if (person[1] >= 21) && (person[0][0].downcase != letter.downcase)
-		not_bounced.push person[0]
+		not_bounced << person[0]
 
 		end
 
