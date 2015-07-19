@@ -1,17 +1,14 @@
-<head>
-	<title>Hookup Horoscopes - Cape Town Edition</title>
-</head>
-
 <body>
 <div class="container">
 	<div class="intro">
 	<h1>Hookup Horoscopes - Cape Town Edition</h1>
-	<h4>Where should you hookup in Cape Town according to your Zodiac sign? <br>-- Astrological guide by Aleka and Lucas</h4>
+	<h4 class="intro">Where should you hookup in Cape Town according to your Zodiac sign? <br>-- <em>Astrological guide by Aleka and Lucas</em></h4>
 	</div>
 
 	<div class="signs">
 	<% @horoscopes_list.each do |horoscope|%>
 		<a href="/<%= horoscope[:name] %>"><%= horoscope[:name].capitalize %></a>
+		<br>
 		<br>
 	<% end %>
 	</div>

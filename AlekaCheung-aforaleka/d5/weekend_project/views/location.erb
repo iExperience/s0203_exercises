@@ -1,0 +1,19 @@
+<body>
+<div class="container">
+	<div class="intro">
+	<h1 class="horoscope"><%= @horoscope.capitalize %></h1>
+	<h4 class="description2">Your sexy spot in Cape Town:</h4>
+	<% @horoscopes_list.each do |horoscope|%>
+		<% if horoscope[:name] == @horoscope %>
+			<h3><%= horoscope[:location] %></h3>
+		<% end %>
+	<% end %>
+	<% horoscope = @horoscope %>
+	<p><%= @location %></p>
+	<div class="back">
+	<a href="/<%= @horoscope %>">Back to your Sign</a>
+	</div>
+	</div>
+
+</div>
+</body>
