@@ -1,0 +1,26 @@
+head {
+	text-align: center;
+}
+
+ .home {
+    text-align: center;
+    /*background: url("http://www.dyannewilliamsmosaics.com/images/mosaic-index/mosaic-02.jpg");*/
+    /*background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('http://www.dyannewilliamsmosaics.com/images/mosaic-index/mosaic-02.jpg'); */
+    /*background-size: cover;*/
+    /*background-color: orange;*/
+    color: black;
+    font-family: helvetica;
+  }
+
+html { 
+  background: url("http://www.dyannewilliamsmosaics.com/images/mosaic-index/mosaic-02.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
