@@ -33,10 +33,7 @@
 header{
   background: black; 
   margin: 0px; 
-  background:url("https://38.media.tumblr.com/c49aa15b9a8888764de93026bb3b4fa8/tumblr_n5iwg71UVz1szzplzo1_500.gif");
-  background-size: cover;
-  background-position: center; 
-  padding: 10px; 
+  padding: 0px; 
   font-family: 'Open Sans', sans-serif;
   color: rgba(0,100,200,.8);
 }
