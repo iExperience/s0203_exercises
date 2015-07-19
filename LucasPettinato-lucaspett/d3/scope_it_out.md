@@ -1,4 +1,5 @@
-1) 20 
+1) "IT'S SO LOUD"
+20 
 
 2) Step #1: The variable "loudness" is set equal to the integer 20
 
