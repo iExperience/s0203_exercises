@@ -1,0 +1,20 @@
+body{
+	text-align: center;
+	margin-top: 40px;
+}
+
+#paragraph_two{
+	color: gray;
+}
+
+p{
+	font-weight: bold;
+}
+
+a{
+	text-decoration: none;
+}
+
+a:hover{
+	color: gray;
+}
