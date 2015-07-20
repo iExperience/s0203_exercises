@@ -1,6 +1,11 @@
-$(document).ready(function(){
-	$('body').hide().fadeIn(4000);      
 
+	
+
+$(document).ready(function(){
+	$('body').hide().fadeIn(3000);      
+
+
+	
 
    
 });

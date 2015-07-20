@@ -29,6 +29,12 @@ a {
 	color: rgba(255,255,255,0.8);
 	background-color: rgba(0,0,0,0.2);
 	font-size: 30px;
+	-o-transition:.5s;
+ 	-ms-transition:.5s;
+  	-moz-transition:.5s;
+  	-webkit-transition:.5s;
+	transition:.5s;
+
 }
 
 
@@ -40,7 +46,12 @@ a.big_link {
 }
 
 a:hover {
-	color: rgba(0,0,0,1);
+	color: #FFDBB8;
+	
+}
+
+a.big_link:hover {
+	font-size: 110px;
 }
 
 .back {
