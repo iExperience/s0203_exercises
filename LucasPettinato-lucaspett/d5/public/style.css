@@ -1,0 +1,63 @@
+body {
+	margin-top: 20px;
+	background-size: cover;
+	background-image: url("http://www.mrwallpaper.com/wallpapers/cape-town-foggy-night-1920x1200.jpg");
+	color: white;
+	font-family: 'Poiret One', cursive;
+}
+
+h1.horoscope {
+	margin-bottom: 20px;
+}
+
+h4 {
+	font-family: 'Dosis', sans-serif;
+	font-weight: normal;
+	color: rgba(255,255,255,0.8);
+}
+
+h4.intro {
+	margin-bottom: 50px;
+}
+
+p {
+	font-family: 'Dosis', sans-serif;
+	font-size: 18px;
+}
+
+a {
+	color: rgba(255,255,255,0.8);
+	background-color: rgba(0,0,0,0.2);
+	font-size: 30px;
+}
+
+
+a.big_link {
+	margin: 50px 0 50px 0;
+	font-size: 100px;
+	margin: 100px 0;
+	background: none;
+}
+
+a:hover {
+	color: rgba(0,0,0,1);
+}
+
+.back {
+	font-size: 15px;
+	background-color: none;
+	text-align: right;
+}
+
+h4.description {
+	font-size: 18px;
+}
+
+h4.description2 {
+	margin-bottom: -15px;
+}
+
+img {
+	margin-bottom: 15px;
+	max-height: 400px;
+}
