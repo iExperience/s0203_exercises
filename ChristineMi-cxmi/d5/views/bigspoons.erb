@@ -1,9 +1,8 @@
 
-<% @bigspoons.each do |info| %>
+<% @big_spoons.each do |info| %>
 
-		Name: <%= info[:spoon_name] %>
+		Name: <a href="/bigspoons/<%= info[:spoon_name].split.last.downcase %>"><%= info[:spoon_name] %></a>
 		<br>
-		Description: <%= info[:description] %>
-		<br>
+	
 
 <% end %>
