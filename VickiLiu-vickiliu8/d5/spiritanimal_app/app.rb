@@ -8,7 +8,7 @@ end
 get "/match/:match_num/:avoid_num" do |match, avoid|
 
 	animals = [
-   	 	{:description => "very unfortunate.", :image => "awkward.jpg", :name => "that awkward moment when you high-five and totally miss"},
+   	 	{:description => "Freakishly tall.", :image => "giraffe.jpg", :name => "giraffe"},
 		{:description => "like literally.", :image => "starbucks.jpg", :name => "a non-fat soy pumpkin-spice caramel latte that can't even right now"},
 		{:description => "\#Illuminati", :image => "oprah.jpg", :name => "Oprah"},
 		{:description => "You are an enigma.  So majestic and yet so disgusting.", :image => "ostrich.jpg", :name => "Pissing Ostrich"},
@@ -34,7 +34,7 @@ get "/animal/:index" do |index|
 
 
 animals = [
-   	    {:description => "very unfortunate.", :image => "awkward.jpg", :name => "that awkward moment when you high-five and totally miss"},
+   	    {:description => "Freakishly tall.", :image => "giraffe.jpg", :name => "giraffe"},
 		{:description => "like literally.", :image => "starbucks.jpg", :name => "a non-fat soy pumpkin-spice caramel latte that can't even right now"},
 		{:description => "\#Illuminati", :image => "oprah.jpg", :name => "Oprah"},
 		{:description => "You are an enigma.  So majestic and yet so disgusting.", :image => "ostrich.jpg", :name => "Pissing Ostrich"},
