@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>All Spoons</title>
+</head>
+<body>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/">SPOON</a>
+        </div>
+
+      </div>
+    </nav>
+    <div class="container">
+<div class="spoonbody">
+
+ <h1>Little Spoons</h1>
+<% @littlespoons.each do |info| %>
+		<h2><%= info[:spoon_name] %></h2>
+		
+		<img src="<%= info[:image] %>" width="150">
+		<p><%= info[:description] %></p>
+		<br>
+
+<% end %>
+<h1>Big Spoons</h1>
+<% @bigspoons.each do |info| %>
+	
+		<h2><%= info[:spoon_name] %></h2>
+		
+		<img src="<%= info[:image] %>" width="150">
+		<p><%= info[:description] %></p>
+		<br>
+
+<% end %>
+</div>
+</div>
+</body>
+</html>
