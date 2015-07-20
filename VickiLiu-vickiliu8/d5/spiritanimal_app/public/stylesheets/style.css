@@ -24,5 +24,7 @@ img {
 
 li {
 	padding: 5px;
+	left-margin: 50px;
+	right-margin: 50px;
 }
 
