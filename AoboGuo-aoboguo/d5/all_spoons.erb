@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>All Spoons</title>
+</head>
+<body>
+
+
+<% @littlespoons.each do |info| %>
+
+		Name: <%= info[:spoon_name] %>
+		<br>
+		Description: <%= info[:description] %>
+		<br>
+
+<% end %>
+
+<% @bigspoons.each do |info| %>
+
+		Name: <%= info[:spoon_name] %>
+		<br>
+		Description: <%= info[:description] %>
+		<br>
+
+<% end %>
+
+
+</body>
+</html>
