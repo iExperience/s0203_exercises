@@ -1,7 +1,7 @@
 require "sinatra"
 
 get "/" do
-	@rand_num = rand(11)
+	@rand_num = rand(10)
 	erb :home
 end
 
@@ -45,16 +45,16 @@ animals = [
 		{:description => "Interests include: factories, fast food, farming and being awesome", :image => "brian.jpg", :name => "Brian"},
 		{:description => "you sicken me.", :image => "decaf-coffee.jpg", :name => "Decaf Coffee"}
 	]
-@match_num = rand(11)
-@avoid_num = rand(11)
+@match_num = rand(10)
+@avoid_num = rand(10)
 
 while @match_num == index.to_i 
-	@match_num = rand(11)
+	@match_num = rand(10)
 
 end
 
 while (@avoid_num == @match_num || @avoid_num == index.to_i)
-	@avoid_num = rand(11)
+	@avoid_num = rand(10)
 end
 
 @name = animals[index.to_i][:name] #to_i
