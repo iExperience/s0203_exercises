@@ -48,6 +48,10 @@ a:hover {
 	color: #FFDBB8;
 }
 
+a.big_link:hover {
+	font-size: 110px;
+}
+
 .back {
 	font-size: 15px;
 	background-color: none;
