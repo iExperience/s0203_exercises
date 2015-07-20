@@ -7,12 +7,17 @@ body {
   text-align: justify;
  }
  .middle {
-  background-image: url("../images/nightmountain.jpg");
+  background-image: url("/../images/nightmountain.jpg");
   color: white;
   height: 500px;
   background-position: center;
-  background-size: 100% 100%;
+  max-width: 100%;
   opacity: .75;
+  margin-left: 0 auto;
+  margin-right: 0 auto;
+ }
+ #school {
+  color: white;
  }
  h1 {
   padding-top: 200px;
@@ -34,5 +39,24 @@ body {
 
  li {
   display: inline;
-  color: 808080;
+  color: #3762de;
  }
+
+.section {
+  padding: 8rem 0 7rem;
+  text-align: center;
+}
+.section-heading,
+.section-description {
+  margin-bottom: 1.2rem;
+}
+
+.nav {
+  margin: -4rem 5 -4rem;
+}
+
+@media (min-width: 1000px) {
+  .section {
+    padding: 20rem 0 19rem;
+  }
+
