@@ -4,7 +4,7 @@ class CreateRusks < ActiveRecord::Migration
       t.string :base
       t.string :extras
       t.boolean :dippable
-      t.integer :crunch_fator
+      t.integer :crunch_factor
 
       t.timestamps null: false
     end
