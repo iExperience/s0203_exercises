@@ -1,5 +1,5 @@
 class RusksController < ApplicationController
-def index
+	def index
 		@rusks = Rusk.all
 	end
 
