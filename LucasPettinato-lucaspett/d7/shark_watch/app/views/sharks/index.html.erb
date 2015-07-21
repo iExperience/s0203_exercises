@@ -1,0 +1,21 @@
+<h1>Listing Sharks</h1>
+<%= link_to 'New shark', new_shark_path %>
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Size</th>
+    <th>Gender</th>
+    <th>Danger Level</th>
+    <th colspan="3"></th>
+  </tr>
+ 
+  <% @sharks.each do |shark| %>
+    <tr>
+      <td><%= shark.name %></td>
+      <td><%= shark.size %></td>
+      <td><%= shark.gender %></td>
+      <td><%= shark.danger_level %></td>
+      <td><%= link_to 'Show', shark_path(shark) %></td>
+    </tr>
+  <% end %>
+</table>
