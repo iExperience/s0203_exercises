@@ -12,9 +12,14 @@ class SharksController < ApplicationController
 	end
 
 	def create
-		@shark = Shark.new(params[:id])
+		@shark = Shark.new(shark_params)
 
 		@shark.save
 		redirect_to @shark
 	end
+
+	private
+		def shark_params
+			params.require(:shark).permit(:name, :size, :gender, :danger_level)
+		end
 end
