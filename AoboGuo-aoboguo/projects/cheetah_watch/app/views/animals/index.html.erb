@@ -1,0 +1,9 @@
+<h1>HELLO MY FRIEND!</h1>
+<% @animals.each do |animal| %>
+	<p>
+		<%= link_to animal.name, "/animals/#{animal.id}" %>
+		<%= link_to animal.name, animal_path(animal)" %>
+		<a href="/animals/<%= animal.id %>">
+		<%#these three links are the same %>
+		<%= animal.name %> (<%= animal.species %>)</p>	
+<% end %>
