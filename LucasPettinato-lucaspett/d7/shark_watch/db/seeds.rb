@@ -5,3 +5,9 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+Shark.create! name: "Jaws", size: "100", gender: "Male", danger_level: "10"
+
+Shark.create! name: "Felica", size: "50", gender: "Female", danger_level: "7"
+
+Shark.create! name: "Brian", size: "1", gender: "Male", danger_level: "1"
