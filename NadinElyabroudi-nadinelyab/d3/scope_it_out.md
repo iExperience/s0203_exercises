@@ -1,0 +1,3 @@
+1. returns 20
+2. First it creates a local variable called loudness with the value 20, then it prints "IT'S SO LOUD", then it returns the value of loudness which is still 20
+3. The value of loudness is 10 since at the end of the program the method get_louder has finished and the only variable called loudness in the current scope is the one defined first which has value 10. This variable was not changed by what happened inside the method get_louder
