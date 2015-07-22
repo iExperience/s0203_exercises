@@ -8,12 +8,11 @@
 
 Animal.delete_all
 
-Animal.create name: "Carl", species: "Zebra", region: "Cape Point", diet:
-"Grass", color: "Yellow", age: 250, size: 100
+puts "Creating Animals...."
 
-Animal.create name: "Maria", species: "Zebra", region: "Cape Point", diet:
-"Corn", color: "Blue", age: 5, size: 80
+Animal.create! name: "Carl", species: "Zebra", region: "Cape Point", diet: "Herbivore", color: "Yellow", age: 250, size: 100
 
-Animal.create name: "Wick", species: "Zebra", region: "Jo-Burg", diet:
-"Pizza", color: "Pink", age: 81, size: 8
+Animal.create! name: "Maria", species: "Zebra", region: "Cape Point", diet: "Herbivore", color: "Blue", age: 5, size: 80
+
+Animal.create! name: "Wick", species: "Sprinkbok", region: "Jo-Burg", diet: "Omnivore", color: "Pink", age: 81, size: 8
 

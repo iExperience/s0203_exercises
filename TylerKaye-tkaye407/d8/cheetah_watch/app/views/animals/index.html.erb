@@ -1,0 +1,7 @@
+<h1> HI GUYS </h1>
+<% @animals.each do |animal| %>
+<%= link_to animal.name, animal_path(animal) %>
+
+<p><a href="/animals/<%=animal.id%>"> <%= animal.name %> </a></p>
+<p><%= animal.species %> </p>
+<% end %>	
