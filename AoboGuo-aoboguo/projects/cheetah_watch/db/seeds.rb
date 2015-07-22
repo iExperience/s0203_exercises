@@ -10,11 +10,11 @@ Animal.delete_all
 
 puts "Creating animals..."
 
-Animal.create name: "Carl", species: "Zebra", region: "Cape Point", diet: "Potatoes",
+Animal.create! name: "Carl", species: "Zebra", region: "Cape Point", diet: "herbivore",
 color: "yellow", age: 250, size: 100
 
-Animal.create name: "Maria", species: "Zebra", region: "Cape Point", diet: "Corn",
+Animal.create! name: "Maria", species: "Zebra", region: "Cape Point", diet: "omnivore",
 color: "yellow", age: 5, size: 80
 
-Animal.create name: "Fernando", species: "Springbok", region: "Madrid", diet: "Eggs", 
+Animal.create! name: "Fernando", species: "Springbok", region: "Madrid", diet: "carnivore", 
 color: "red", age: 93, size: 100
