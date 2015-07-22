@@ -1,0 +1,25 @@
+<h1><%= @animal.name %> page</h1>
+<h2><%= @animal.species %></h2>
+
+<p>This animal is <%= @animal.diet %></p>
+
+<p>It is colored <%= @animal.color %></p>
+
+<p>It lives in <%= @animal.region %></p>
+
+<p>It weighs <%= @animal.size %> lbs. </p>
+
+<p>It is <%= @animal.age %> years old</p>
+
+<p> <%= link_to "Animals list", animals_path %></p>
+
+<!-- <p><a href="/animals">Animal List</a></p> -->
+
+<!-- 
+ t.string   "species"
+    t.string   "diet"
+    t.integer  "size"
+    t.string   "color"
+    t.string   "region"
+    t.integer  "age"
+    t.string   "name" -->

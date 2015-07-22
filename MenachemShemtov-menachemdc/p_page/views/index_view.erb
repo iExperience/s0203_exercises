@@ -1,0 +1,13 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+	<title>Contact: <%= @name %></title>
+</head>
+
+<body>
+<% @contact.each do |contact| %>
+	<h1><%= contact[:name]%></h1>
+	<h2><%= print_info contact %></h2>
+	<% end %>
+</body>
+</html>
