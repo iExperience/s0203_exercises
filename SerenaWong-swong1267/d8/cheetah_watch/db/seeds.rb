@@ -8,5 +8,5 @@
 
 Animal.delete_all
 
-Animal.create! name: "Carl", species: "Zebra", region: "Cape Point", diet: "carnivore", color: "Yellow", age: 250, size: 100
-Animal.create! name: "Maria", species: "Zebra", region: "Cape Point", diet: "omnivore", color: "Blue", age: 5, size: 80
+Animal.create name: "Carl", species: "Zebra", region: "Cape Point", diet: "carnivore", color: "Yellow", age: 250, size: 100
+Animal.create name: "Maria", species: "Zebra", region: "Cape Point", diet: "omnivore", color: "Blue", age: 5, size: 80
