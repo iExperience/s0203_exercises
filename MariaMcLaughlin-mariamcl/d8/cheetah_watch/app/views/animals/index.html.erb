@@ -1,0 +1,7 @@
+<h1>Welcome to Africa</h1>
+
+<% @animals.each do |animal| %>
+	<p>
+		<%= link_to animal.name, animal_path(animal) %>
+	is a <%= animal.species %></p>
+<% end %>
