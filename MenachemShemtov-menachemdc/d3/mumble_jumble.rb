@@ -1,6 +1,6 @@
 def jumble(sentence)
 	return sentence if sentence.empty?
-	sentence.split.shuffle.join(' ')
+	sentence.split('').shuffle.join('')
 end
 
 puts jumble "Nice, Bru! Try to talk properly"

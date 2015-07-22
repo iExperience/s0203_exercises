@@ -1,0 +1,19 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+	<title>"My Home Page"</title>
+</head>
+<body>
+
+<a href="/contacts">See all Contacts</a>
+
+<ul>
+	<% @contacts.each do |contact| %>
+	<li><a href="/contacts/<%= @contacts[:name] %>">See <%= contacts[:name] %><a></li>
+	<% end %>
+</ul>
+
+<p> "Random paragraph hanging out." </p>
+
+</body>
+</html>
