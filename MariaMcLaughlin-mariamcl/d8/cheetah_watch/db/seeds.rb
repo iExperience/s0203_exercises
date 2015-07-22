@@ -5,3 +5,12 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+Animal.delete_all
+
+puts "Creating animals..."
+
+Animal.create name: "Carl", species: "Zebra", region: "Cape Point", diet: "Potatoes", color: "Yellow", age: 250, size: 100
+
+Animal.create name: "Maria", species: "Zebra", region: "Cape Point", diet: "Corn", color: "Blue", age: 5, size: 80
+
+Animal.create name: "Fernando", species: "Springbok", region: "Madrid", diet: "Eggs", color: "Red", age: 15, size: 100
