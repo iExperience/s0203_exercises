@@ -16,3 +16,7 @@ age: 5, size: 80
 
 Animal.create! name: "Fernando", species: "Springbok", region: "Madrid", 
 diet: "carnivore", color: "red", age: 93, size: 100
+
+Shelter.create! name: "New Haven", address: "Connecticut", open: true
+Shelter.create! name: "Safe Space", address: "San Francisco", open: false
+Shelter.create! name: "Mother City", address: "Canada", open: true
