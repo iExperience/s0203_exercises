@@ -1,0 +1,17 @@
+<h1> <%= @place.name %> </h1>
+
+<p> <strong> Address: </strong>
+<%= @place.address %> </p>
+
+<p> <strong> Rating: </strong>
+<%= @place.rating %> out of 5 </p>
+
+<hr>
+
+<%= render @place.comments %>
+
+<%= render 'comments/form' %>
+
+<%= link_to 'Back', places_path %>
+<td><%= link_to 'Delete', place_path(@place), method: :delete, data: { confirm: 'Are you sure?' } %></td>
+<%= link_to 'Edit', edit_place_path%>
