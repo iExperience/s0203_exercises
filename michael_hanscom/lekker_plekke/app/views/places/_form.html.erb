@@ -1,0 +1,32 @@
+<% if @place.errors.present? %>
+  <% @place.errors.full_messages.each do |msg| %>
+    <p><%= msg %></p>
+  <%end%>
+<%end%>
+
+<%= form_for @place do |f| %>
+  <p>
+    <%= f.label :name %>
+    <%= f.text_field :name %>
+  </p>
+
+  <p>
+    <%= f.label :distance %>
+    <%= f.text_field :distance %>
+  </p>
+
+  <p>
+    <%= f.label :highlight %>
+    <%= f.text_field :highlight %>
+  </p>
+
+  <p>
+    <%= f.label :description %>
+    <%= f.text_field :description %>
+  </p>
+
+  <p>
+    <%= f.submit %>
+  </p>
+
+<% end %>

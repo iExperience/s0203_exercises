@@ -1,0 +1,46 @@
+<style>
+	body{
+		margin: 0 auto;
+	}
+	h1 {
+		font-size: 60px;
+		padding: 0 0 100px 0;
+		color: white;
+	}
+	header{
+		text-align: center;
+		background: url("http://i.imgur.com/kCHYHiv.jpg");
+		background-size: cover;
+		background-position: center;
+	}
+    img {
+    	width: 200px;
+    	position: center;
+    }
+
+    li {
+    	color: white;
+    	background: black;
+    	display:inline;
+    	padding: 5px;
+    	border: 6px solid black;
+    	border-radius: 10px;
+    }
+    a {
+    	color: white;
+    }
+    div{
+  		position: relative;
+  		width: 400px;
+  		display: inline;
+        margin: 0 auto;
+
+    }
+    .academics{
+    	float: left;
+  
+    }
+    .others{
+    	float: right;
+    }
+</style>

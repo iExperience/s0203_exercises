@@ -1,0 +1,5 @@
+<h1 style= "text-align: center">All Contacts</h1>
+
+ <% @contacts.each do |names| %>
+	<p style= "text-align: center"><a href= "http://localhost:4567/contacts/#{names}"><%=names%></a></p>
+<%end%>
