@@ -5,7 +5,7 @@ Rails.application.routes.draw do
   resources :animals
 
   # You can have the root of your site routed with "root"
-  # root 'welcome#index'
+   root 'animals#index'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
