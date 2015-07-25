@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<head>
+<style>
+body{
+	max-width: 400px;
+	margin: 0 auto;
+	text-align: center;
+}
+</style>
+</head>
+
+<body>
+<h1> Contacts  </h1>
+<% @contacts_array.each do |name| %>
+<p> <strong> <a href="/contacts/<%=name%>"> <%= name %> </a> </strong> </p>
+<%end%>
+
+</body>

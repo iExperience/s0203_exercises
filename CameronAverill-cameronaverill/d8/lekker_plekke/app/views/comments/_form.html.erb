@@ -1,0 +1,16 @@
+<%= form_for([@place, @place.comments.build]) do |comments_form| %>
+
+<% if @place.errors.present? %>
+	<% @place.comments.errors.full_messages.each do |msg| %>
+		<p> <%= msg %> </p>
+	<%end%>
+<%end%>
+	<p> <%= comments_form.label :commenter, 'Name:' %>
+		<%= comments_form.text_field :commenter %>
+	<%= comments_form.label :text, 'Comment:' %>
+		<%= comments_form.text_area :text %>
+	</p>
+
+	<p> <%= comments_form.submit 'Save Comment' %> </p>
+
+<%end%>

@@ -1,0 +1,29 @@
+<h1>Rusks</h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Base</th>
+    <th>Extras</th>
+    <th>Dippable</th>
+    <th>Crunch Factor</th>
+  </tr>
+ 
+  <% @rusks.each do |rusk| %>
+    <tr>
+      <td><%= rusk.name %></td>
+      <td><%= rusk.base %></td>
+      <td><%= rusk.extras %></td>
+      <td><%= rusk.dippable %></td>
+      <td><%= rusk.crunch_factor %></td>
+      <td><%= rusk.extras %></td>
+      <td><%= link_to 'Show', rusk_path(rusk) %></td>
+      <td><%= link_to 'Edit', edit_rusk_path(rusk) %></td>
+      <td><%= link_to 'Destroy', rusk_path(rusk),
+              method: :delete,
+              data: { confirm: 'Are you sure you want to destroy this rusk?'} %></td>
+    </tr>
+  <% end %>
+</table>
+
+<p><%= link_to 'New Rusk', new_rusk_path %></p>
