@@ -4,7 +4,10 @@ Rails.application.routes.draw do
 
   resources :places do
     resources :comments
+    resources :likes
   end
+
+
 
   root 'places#index'
   # You can have the root of your site routed with "root"
