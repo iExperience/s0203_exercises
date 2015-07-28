@@ -4,4 +4,6 @@ class Animal < ActiveRecord::Base
 	validates :diet, inclusion: { in: ["omnivore", "carnivore", "herbivore"] }
 		#this requires that the diet be one of the three things
 		#maybe we would want this to be a drop-down option on our form
+
+	belongs_to :shelter
 end

@@ -7,6 +7,7 @@
 <p>It lives in <%= @animal.region %></p>
 <p>It weighs <%= @animal.size %> lbs</p>
 <p>It is <%= @animal.age %> years old</p>
+<p>This animal is at the <%= @animal.shelter.name %> shelter.</p>
 
 <p><a href = "/animals">Animal List</a></p>
 <p><%= link_to "Animal List", animals_path %></p>
