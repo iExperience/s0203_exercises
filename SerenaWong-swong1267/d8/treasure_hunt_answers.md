@@ -1,6 +1,6 @@
 ##### Treasure Hunt Answers
 
-1. twelve
+1. fourteen
 2. two models
 3. two controllers
 4. in the controller

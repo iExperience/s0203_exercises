@@ -1,5 +1,10 @@
 <h1>HELLO MY FRIEND</h1>
 <h1>THESE ARE MY ANIMAL FRIENDS</h1>
 <% @animals.each do |animal| %>
-	<p><%= link_to animal.name, animal_path(animal) %> is a <%= animal.species %></p> 
+	<p>
+		<%= link_to animal.name, animal_path(animal) %> is a <%= animal.species %>
+		<%= link_to "Edit", edit_animal_path(animal) %>
+	</p> 
 <% end %>
+
+<%= link_to "New", new_animal_path %>
