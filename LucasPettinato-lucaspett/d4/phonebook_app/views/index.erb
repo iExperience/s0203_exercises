@@ -1,0 +1,7 @@
+<h1>Lucas's Contacts</h1>
+<li><a href="/contacts">See All Contacts</a></li>
+
+<% @contacts.each do |info| %>
+	Name: <a href="/contacts/<%= info %>"> <%= info %></a>
+	<br>
+<% end %>
