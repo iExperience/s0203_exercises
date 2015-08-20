@@ -1,0 +1,38 @@
+<h1>Listing rusks</h1>
+
+<%= link_to 'New rusk', new_rusk_path %>
+
+<table>
+  <thead>
+    <tr>
+      <th><h2>Rusk Repository</h2></th>
+    </tr>
+    <tr>
+      <th>Name</th>
+      <th>Base</th>
+      <th>Extras</th>
+      <th>Dippable</th>
+      <th>Crunch factor</th>
+  </thead>
+
+  <tbody>
+    <% @rusks.each do |rusk| %>
+      <tr>
+        <td><%= rusk.name %></td>
+        <td><%= rusk.base %></td>
+        <td><%= rusk.extras %></td>
+        <td><%= rusk.dippable %></td>
+        <td><%= rusk.crunch_factor %></td>
+        <td><%= link_to 'Show', rusk_path(rusk) %></h2></td>
+        <td><%= link_to 'Edit', edit_rusk_path(rusk) %></td>
+        <td><%= link_to 'Destroy', rusk_path(rusk), 
+                method: :delete, 
+                data: { confirm: 'Are you sure you want to delete this delicious rusk?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<p><%= link_to 'New Rusk', new_rusk_path %></p>
