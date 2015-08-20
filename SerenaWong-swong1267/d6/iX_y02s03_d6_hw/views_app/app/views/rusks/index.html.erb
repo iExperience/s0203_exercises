@@ -1,0 +1,23 @@
+<h1>Listing rusks</h1>
+<%= link_to 'New rusk', new_rusk_path %>
+<table>
+  <tr>
+    <th>Title</th>
+    <th>Text</th>
+    <th colspan="3"></th>
+  </tr>
+ 
+  <% @rusks.each do |rusk| %>
+    <tr>
+      <td><%= rusk.base %></td>
+      <td><%= rusk.extras %></td>
+      <td><%= rusk.dippable %></td>
+      <td><%= rusk.crunch_factor %></td>
+      <td><%= link_to "Show", rusk_path(rusk) %></td>
+      <td><%= link_to "Edit", edit_rusk_path(rusk) %></td>
+      <td><%= link_to 'Destroy', rusk_path(rusk),
+              method: :delete,
+              data: { confirm: 'Are you sure?' } %></td>
+    </tr>
+  <% end %>
+</table>

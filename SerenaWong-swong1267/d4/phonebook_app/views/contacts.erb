@@ -1,0 +1,6 @@
+<h1>This is Contacts</h1>
+<h2>Contact links: </h2>
+<% @contacts.each do |contact| %>
+<a href="contacts/<%=contact%>"><%=contact%></a>
+<br>
+<% end %>

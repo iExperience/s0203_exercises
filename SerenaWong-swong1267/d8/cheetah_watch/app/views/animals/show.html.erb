@@ -1,0 +1,5 @@
+<h1>THIS IS <%= @animal.name %></h1>
+<p><%= @animal.name %> is a/n <%= @animal.color.downcase %> <%=@animal.species.downcase %>, <%= @animal.diet %>, and <%= @animal.age %>-year-old from <%= @animal.region %></p>
+<p><%= @animal.name %> weighs <%= @animal.size %> pounds</p>
+
+<%= link_to "Back", animals_path %>

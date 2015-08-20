@@ -1,0 +1,26 @@
+<%= form_for @rusk do |f| %>
+  <p>
+    <%= f.label :base %><br>
+    <%= f.text_field :base %>
+  </p>
+
+  <p>
+    <%= f.label :extras %><br>
+    <%= f.text_field :extras %>
+  </p>
+
+  <p>
+    <%= f.label :dippable %><br>
+    <%= f.text_field :dippable %>
+  </p>
+ 
+  <p>
+    <%= f.label :crunch_factor %><br>
+    <%= f.text_area :crunch_factor %>
+  </p>
+ 
+  <p>
+    <%= f.submit %>
+  </p>
+ 
+<% end %>

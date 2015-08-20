@@ -1,0 +1,22 @@
+.container {
+  padding: -10px;
+}
+
+head {
+	text-align: center;
+}
+
+.default{
+  border: 7px solid white;
+  border-radius: 50%;
+  width: 250px;
+}
+
+.img-responsive {
+  max-width: 220px;
+}
+
+li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }

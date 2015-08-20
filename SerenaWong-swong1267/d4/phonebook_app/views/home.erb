@@ -1,0 +1,9 @@
+<h1>Find your contact!</h1>
+<h2>Go to <a href="contacts">index view</a></h2>
+<h2>Go to a single contact:</h2>
+<h3>
+	<% @contacts.each do |contact| %>
+		<a href="contacts/<%=contact%>"><%=contact%></a>
+		<br>
+	<% end %>
+</h3>
