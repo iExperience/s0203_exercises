@@ -1,0 +1,17 @@
+<h1><%= @animal.name %> is so cool!</h1>
+
+<h2><%= @animal.species %></h2>
+
+<p>This animal is a(n) <%= @animal.diet %>.</p>
+
+<p>It is colored <%= @animal.color %>.</p>
+
+<p>It lives in <%= @animal.region %>.</p>
+
+<p>It weighs <%= @animal.size %> pounds.</p>
+
+<p>It is <%= @animal.age %> years old.</p>
+
+<p><a href="/animals">Animal List</a></p>
+
+<%= link_to 'Edit', edit_animal_path %>

@@ -1,0 +1,11 @@
+<head>
+	<link href="<%= url('/../style.css') %>" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<h1>Contacts</h1>
+		<p>View a Single Contact:</p>
+	<% @contacts.each do |contact| %>
+		<p><a href="/contacts/<%= contact %>"><%= contact.capitalize %></a></p>
+	<% end %>
+<a href="/">home</a>
+</body>
