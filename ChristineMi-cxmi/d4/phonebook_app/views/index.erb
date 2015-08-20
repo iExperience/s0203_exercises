@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Phonebook</title>
+</head>
+<body>
+
+<a href="/contacts">All Contacts</a><br>
+
+
+<% @contacts.each do |info| %>
+Name: <a href="/contacts/<%= info[:person_name].downcase %>"> <%= info[:person_name] %> </a><br>
+<% end %>
+
+</body>
+</html>
