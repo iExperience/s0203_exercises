@@ -1,0 +1,13 @@
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+	<h3>These are my 3 awesome friends</h3>
+	<% @contacts.each do |name, number| %>
+		<%= name %>: <%= number %>
+		<br>
+	<% end %>
+	<br>
+	<a href="..">Back</a>
+</body>

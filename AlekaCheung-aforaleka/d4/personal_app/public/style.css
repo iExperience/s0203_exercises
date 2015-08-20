@@ -1,0 +1,34 @@
+body {
+	max-width: 95%;
+}
+
+.home {
+	margin: 25px 0 0 0;
+	text-align: right;
+	color: rgba(0, 0, 0, 0.6);
+	max-width: 80%;
+	font-family: 'Abel', sans-serif;
+	font-weight: normal;
+}
+
+.text {
+	text-align: left;
+	position: fixed;
+	margin: 25px;
+}
+
+h1 {
+	font-size: 50px;
+}
+
+h4 {
+	margin-top: -10px;
+}
+img {
+	max-width: 80%
+}
+
+a {
+	text-decoration: none;
+	color: rgba(0, 0, 0, 0.6);
+}

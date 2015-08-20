@@ -1,0 +1,21 @@
+body {
+	font-family: helvetica;
+}
+
+a {
+	color: grey;
+	text-decoration: none;
+}
+
+a:hover {
+	color: pink;
+	text-decoration: none
+}
+
+p {
+	font-size: 15px;
+}
+
+h3 {
+	font-size: 20px;
+}
